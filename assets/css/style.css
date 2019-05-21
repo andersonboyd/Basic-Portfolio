@@ -6,6 +6,7 @@ html, body {
 }
 
 body {
+    width: 960px;
     display: flex;
     flex-direction: column;
 }
