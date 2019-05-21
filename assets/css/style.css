@@ -15,10 +15,11 @@ body {
     border-color: #cccccc;
     border-style: solid 2px;
     padding: 10px 15px;
-    margin: 100px 150px;
-    display: inline;
+    margin: 10px 15px;
+    width: 300px;
+    float: left;
     position: relative;
-    right: 100px;
+    left: 30px;
 }
 
 .header h1 {
@@ -27,6 +28,12 @@ body {
     content: auto;
     padding: 10px;
     float: left;
+}
+
+.nav {
+    position: absolute;
+    right: 0px;
+    width: 400px;
 }
 
 .nav ul {
@@ -57,6 +64,8 @@ body {
 
 .aboutme {
     max-width: 960px;
+    margin: auto;
+    width: 75%;
     content: auto;
     overflow: auto;
     flex: 1 0 auto;
