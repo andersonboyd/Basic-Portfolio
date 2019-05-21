@@ -1,11 +1,8 @@
-html, body {
+body {
     height: 100%;
     max-width: 960px;
     color: #777777;
     background-color: #ffffff;
-}
-
-body {
     width: 960px;
     display: flex;
     flex-direction: column;
@@ -24,7 +21,7 @@ body {
     width: 270px;
     float: left;
     position: relative;
-    left: 100px;
+    left: 0px;
 }
 
 .name h1 {
@@ -82,10 +79,11 @@ body {
 }
 
 .selfie {
-    width: 50%;
-    height: 50%; 
+    width: 40%;
+    height: 40%; 
     text-align: left; 
     padding: 5px;
+    margin: 15px;
     float: left; 
 } 
 
