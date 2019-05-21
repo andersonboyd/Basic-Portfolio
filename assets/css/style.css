@@ -11,15 +11,19 @@ body {
 }
 
 .header {
-    background-color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    background-color: #4aaaa5;
     border-color: #cccccc;
+    float: left;
+}
+
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 
 .nav {
     float: right;
-    text-align: center;
+    text-align: right;
 }
 
 .aboutme {
