@@ -12,29 +12,33 @@ body {
 }
 
 .header {
-    background-color: #4aaaa5;
     border-color: #cccccc;
     border-style: solid 2px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    width: 300px;
-    float: left;
-    position: relative;
-    left: 30px;
+    width: 960px;
+    height: 100px;
 }
 
-.header h1 {
+.name {
+    background-color: #4aaaa5;
+    padding: 10px 15px;
+    width: 270px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.name h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     content: auto;
-    padding: 10px;
     float: left;
 }
 
 .nav {
     position: absolute;
-    right: 0px;
+    right: 50px;
     width: 400px;
+    top: 100px;
 }
 
 .nav ul {
@@ -95,4 +99,5 @@ img {
     flex-shrink: 0;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
+    width: 100%;
 }
