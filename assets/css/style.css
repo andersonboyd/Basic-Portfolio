@@ -26,9 +26,11 @@ body{
 }
 
 .selfie {
-    width: auto; 
+    width: 30%;
+    height: 30%; 
     text-align: left; 
-    padding: 20px; 
+    padding: 20px;
+    float: left; 
 } 
 
 img { 
