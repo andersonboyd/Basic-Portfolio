@@ -29,18 +29,30 @@ body {
     float: left;
 }
 
-.nav {
-    position: absolute;
-    display: inline-block;
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
 }
 
-.nav a{
+.nav li {
+    float: right;
+}
+
+.nav li a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     text-decoration: none;
     text-align: center;
-    background-color: #ffffff;
-    padding: 10px 12px;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .aboutme {
