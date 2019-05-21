@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
+    width: 960px;
     color: #777777;
+    background-color: #ffffff;
 }
 
 body{
@@ -24,10 +26,11 @@ body{
 }
 
 .selfie {
-    align-content: left;
+    align-content: justify-left;
     size: 30%;
 }
 
 .footer {
     flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
 }
