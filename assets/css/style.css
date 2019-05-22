@@ -11,13 +11,13 @@ body {
     max-width: 960px;
     min-height: 100%;
     color: #777777;
-    line-height: 150%;
+    line-height: 125%;
     justify-content: space-around;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png);
 }
 
 header {
-    border-bottom: 1px solid #777777;
+    border-bottom: 3px solid #777777;
     position: relative;
     display: inline-block;
     background-color: #ffffff;
@@ -85,6 +85,7 @@ header nav li a:hover {
     padding: 10px 15px;
     overflow: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
     background-color: #ffffff;
     border-color: #dddddd;
     text-align: justify;
@@ -97,20 +98,21 @@ header nav li a:hover {
     color: #4aaaa5;
     border-color: #dddddd;
     border-bottom: 5px solid #dddddd;
-    padding: 2px;
+    font-size: 22px;
+    padding: 5px;
     clear: both;
 }
 
 #selfie {
-    width: 35%;
-    height: 35%; 
+    width: 39%;
     text-align: left; 
     padding: 0;
     margin: 0;
     float: left;
     border-color: #dddddd;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-bottom: 2px;
 } 
 
 #selfie img { 
