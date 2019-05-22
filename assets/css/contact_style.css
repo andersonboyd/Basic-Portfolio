@@ -5,20 +5,29 @@
     border-bottom: 5px solid #dddddd;
     padding: 5px;
     padding-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 80px;
     clear: both;
-    width: 75%;
+    width: 74.5%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     max-width: 960px;
     margin: 0 auto;
 }
 
+.textfield {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    width: 75%;
+    margin: 0 auto;
+    overflow: auto;
+    flex: 1 0 auto;
+    clear: both;
+}
+
 fieldset {
     background-color: #ffffff;
     border: 0.25px solid #dddddd;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    width: 75%;
-    margin: 0 auto;
+    margin-bottom: 120px;
     overflow: auto;
     flex: 1 0 auto;
     clear: both;

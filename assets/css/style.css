@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #777777;
+    border-bottom: 1px solid #777777;
     position: relative;
     display: inline-block;
     background-color: #ffffff;
@@ -80,7 +80,7 @@ header nav li a:hover {
     max-width: 960px;
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     width: 75%;
     padding: 10px 15px;
     overflow: auto;
@@ -97,7 +97,7 @@ header nav li a:hover {
     color: #4aaaa5;
     border-color: #dddddd;
     border-bottom: 5px solid #dddddd;
-    padding: 5px;
+    padding: 2px;
     clear: both;
 }
 
