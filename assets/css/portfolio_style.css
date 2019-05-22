@@ -7,17 +7,27 @@
     margin-top: 40px;
     margin-bottom: 80px;
     padding: 20px;
-    justify-content: space-evenly;
+    align-content: flex-start;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 #box1 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
+    display: inline-block;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order: 1;
+}
+
+#box1 img {
+    height: 150px;
+    width: 150px;
+    vertical-align: baseline;
+    object-fit: cover;
 }
 
 #box1:hover {
@@ -27,12 +37,19 @@
 
 #box2 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order: 2;
+}
+
+#box2 img {
+    height: 150px;
+    width: 150px;
+    vertical-align: baseline;
+    object-fit: cover;
 }
 
 #box2:hover {
@@ -42,12 +59,19 @@
 
 #box3 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order: 3;
+}
+
+#box3 img {
+    height: 150px;
+    width: 150px;
+    vertical-align: baseline;
+    object-fit: contain;
 }
 
 #box3:hover {
@@ -57,12 +81,19 @@
 
 #box4 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order:4;
+}
+
+#box4 img {
+    height: 150px;
+    width: 150px;
+    vertical-align: baseline;
+    object-fit: contain;
 }
 
 #box4:hover {
@@ -72,12 +103,19 @@
 
 #box5 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order: 5;
+}
+
+#box5 img {
+    height: 150px;
+    width: 150px;
+    vertical-align: baseline;
+    object-fit: contain;
 }
 
 #box5:hover {
@@ -87,12 +125,19 @@
 
 #box6 {
     background-color: #4aaaa5;
-    padding: 60px 60px;
+    padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
     order: 6;
+}
+
+#box6 img {
+    height: 200px;
+    width: 200px;
+    vertical-align: baseline;
+    object-fit: contain;
 }
 
 #box6:hover {
