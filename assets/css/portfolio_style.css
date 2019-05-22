@@ -14,8 +14,10 @@
 
 #box1 {
     background-color: #4aaaa5;
-    padding: 2px 5px;
     margin: 15px 20px;
+    height: 40%;
+    width: 150px;
+    padding-top: 8px;
     flex-grow: 1;
     text-align: center;
     color: #dddddd;
@@ -24,7 +26,7 @@
 
 #box1 img {
     height: 150px;
-    width: 150px;
+    width: 160px;
     padding: 3px;
     vertical-align: baseline;
     object-fit: cover;
@@ -32,6 +34,7 @@
 
 #box1 p {
     padding: 2px 5px;
+    margin: 6px 9px;
 }
 
 #box1:hover {
@@ -41,6 +44,8 @@
 
 #box2 {
     background-color: #4aaaa5;
+    height: 210px;
+    width: 160px;
     padding: 5px 5px;
     margin: 15px 20px;
     flex-grow: 1;
@@ -50,11 +55,16 @@
 }
 
 #box2 img {
-    height: 150px;
-    width: 150px;
-    padding: 3px;
+    height: 165px;
+    width: 165px;
+    padding: 4px;
     vertical-align: baseline;
     object-fit: cover;
+}
+
+#box2 p {
+    padding: 2px 5px;
+    margin: 0;
 }
 
 #box2:hover {
@@ -79,6 +89,10 @@
     object-fit: contain;
 }
 
+#box3 p {
+    margin: 0;
+}
+
 #box3:hover {
     color: #4aaaa5;
     background-color: #dddddd;
@@ -99,6 +113,10 @@
     width: 150px;
     vertical-align: baseline;
     object-fit: contain;
+}
+
+#box4 p {
+    margin: 0;
 }
 
 #box4:hover {
@@ -126,6 +144,7 @@
 
 #box5 p {
     padding: 5px 2px;
+    margin: 0;
 }
 
 #box5:hover {
@@ -148,6 +167,10 @@
     width: 200px;
     vertical-align: baseline;
     object-fit: contain;
+}
+
+#box6 p {
+    margin: 0;
 }
 
 #box6:hover {
