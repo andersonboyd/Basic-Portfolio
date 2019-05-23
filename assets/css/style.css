@@ -30,7 +30,7 @@ header {
     padding: 12px 16px;
     float: left;
     position: relative;
-    left: 12%;
+    left: 12.5%;
 }
 
 #name h1 {
@@ -42,7 +42,7 @@ header {
 
 header nav {
     position: absolute;
-    right: 0;
+    right: 12.5%;
     bottom: 0;
     display: inline;
     margin: 0 auto;
@@ -129,5 +129,4 @@ header nav li a:hover {
     background-color: #666666;
     width: 100%;
     clear: both;
-    float: bottom;
 }
