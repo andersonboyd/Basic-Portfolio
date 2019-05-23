@@ -6,8 +6,9 @@
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 120px;
-    padding: 20px;
-    align-content: flex-start;
+    padding: 10px;
+    justify-content: center;
+    align-content: space-around;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     position: relative;
@@ -28,10 +29,12 @@
     vertical-align: baseline;
     object-fit: cover;
     position: relative;
-    left: 15px;
+    left: 25px;
 }
 
 #label1 {
+    min-width: 175px;
+    max-width: 185px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -67,10 +70,12 @@
     vertical-align: baseline;
     object-fit: cover;
     position: relative;
-    left: 15px;
+    left: 25px;
 }
 
 #label2 {
+    min-width: 175px;
+    max-width: 185px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -105,10 +110,12 @@
     vertical-align: baseline;
     object-fit: cover;
     position: relative;
-    left: 15px;
+    left: 16px;
 }
 
 #label3 {
+    min-width: 200px;
+    max-width: 210px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -138,15 +145,17 @@
 
 #box4 img {
     height: 160px;
-    width: 180px;
+    width: 190px;
     padding: 3px;
     vertical-align: baseline;
     object-fit: cover;
     position: relative;
-    left: 15px;
+    left: 20px;
 }
 
 #label4 {
+    min-width: 200px;
+    max-width: 210px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -181,10 +190,12 @@
     vertical-align: baseline;
     object-fit: cover;
     position: relative;
-    left: 15px;
+    left: 25px;
 }
 
 #label5 {
+    min-width: 175px;
+    max-width: 185px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -223,6 +234,8 @@
 }
 
 #label6 {
+    min-width: 200px;
+    max-width: 210px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
